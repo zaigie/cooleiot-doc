@@ -83,7 +83,7 @@ String device_id = iot.getDeviceId();
 ### iot.init
 
 ```cpp
-/* 配置设备初始化并连接到网络(推荐) */
+/* 配置设备初始化并连接到网络(Web配网) */
 void init();
 /* 自定义WIFI信息连接 */
 void init(const char *ssid,const char *pswd);
@@ -120,6 +120,8 @@ iot.connect();
 ```cpp
 /* 开始IoT */
 void start(); // ==> iot.init();iot.connect();
+/* 开始IoT（自定义WIFI） */
+void start(const char *ssid,const char *pswd);
 ```
 
 > 该方法其实就是将`iot.init()`和`iot.connect()`融合，方便编写
@@ -129,6 +131,14 @@ void start(); // ==> iot.init();iot.connect();
 ```cpp
 iot.start();
 ```
+
+!> 当您阅读到这里的时候，您务必需要知道一个关键点。即当您使用Web配网相关函数：  
+`iot.init()`或`iot.start()`时，编译器才会将相关库进行编译  
+而使用Web配网，以Nodemcu1.0（ESP-12E）为例：  
+**RAM占用高了近16%（13KB），Flash占用高了近23.4%（238KB）**  
+若您在开发中硬件资源很紧张，大可选择使用两者的重载函数手动写死WIFI信息，减少占用空间。  
+若您未使用相关函数仍然将该库编译了，在代码顶部`#define WITHOUT_WEB`可以解决问题。
+
 
 ### iot.loop
 

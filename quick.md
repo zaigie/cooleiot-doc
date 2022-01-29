@@ -3,9 +3,9 @@
 - [下载APK文件](https://www.cooleiot.tech/app/cooleiot-215.apk)
 - [访问H5版本](https://www.cooleiot.tech)
 
-> 由于酷易物联面向的用户群体中非专业工程师更多，因此在设计之初，便将APP设计地十分简洁易懂。  
-作为用户的您在使用APP的过程中，很容易知道哪个UI是执行什么操作。  
-所以在我们的文档中几乎是不需要向您演示APP等界面操作截图的。  
+> 酷易物联面向的用户群体中**非专业工程师**更多，故在设计之初便将📱APP设计地十分简洁易懂。  
+作为用户的您在使用APP的过程中，很容易知道哪个UI是执行什么操作😊。  
+所以在我们的文档中几乎是**不需要向您演示APP等界面操作截图**的。  
 当然，关于具体的概念和功能说明，您还是需要先看下方的文档才能了解，在这里祝您使用愉快！
 
 ## 使用小程序
@@ -50,7 +50,8 @@
 
  - [ArdinoSDK温湿度及显示例程](/demo?id=温湿度及显示)
 
-?> ⭐可使用Visual Studio Code的platformIO IDE插件进行Arduino开发（推荐）
+?> ⭐推荐使用Visual Studio Code的[platformIO IDE](https://platformio.org/)插件进行Arduino开发  
+对您来说，只需要将压缩包中的CoolE文件夹放在pio项目的lib目录中即可。
 
 ### Python3
 
