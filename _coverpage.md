@@ -1,4 +1,4 @@
-![](https://www.cooleiot.tech/static/img/banner.png ':size=75%')
+![](https://www.cooleiot.tech/assets/images/banner.png ':size=75%')
 
 > 极速物联，咫尺之遥
 

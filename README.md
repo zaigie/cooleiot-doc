@@ -5,11 +5,7 @@
 - [ ] 微信公众号接口开发           ——预计完成时间：**5月底**
 - [ ] SDK模式代码生成           ——预计完成时间：**5月底** -->
 
-## 获取
-
-![logo](static/img/home/get.jpg)
-
-[📱下载APK安装包](https://www.cooleiot.tech/app/cooleiot-220.apk)
+## [访问官网](https://www.cooleiot.tech)
 
 ## 特色
 - 极速接入：一分钟**APP**接入设备
@@ -26,7 +22,7 @@
 
 #### 开发团队
 
-> **宅记 — ⭐酷易物联全栈开发** <br />
+<!-- > **宅记 — ⭐酷易物联全栈开发** <br />
 QQ：709662329 <br />
 GitHub：[github.com/jokerwho](https://github.com/jokerwho "github.com/jokerwho") <br />
 酷安：宅记 <br />
@@ -34,8 +30,8 @@ Blog：[zaigie.com](https://www.zaigie.com "zaigie.com")
 
 > **kami かみ - ⭐嵌入式开发与测试** <br />
 QQ：1317379456 <br />
-GitHub：[github.com/xiaokamikami](https://github.com/xiaokamikami "github.com/xiaokamikami")
-
+GitHub：[github.com/xiaokamikami](https://github.com/xiaokamikami "github.com/xiaokamikami") -->
+[关于我们](https://www.cooleiot.tech/about.html)
 
 #### 项目内测群
 
