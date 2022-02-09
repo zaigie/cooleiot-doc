@@ -9,7 +9,7 @@
 
 ![logo](static/img/home/get.jpg)
 
-[📱下载APK安装包](https://www.cooleiot.tech/app/cooleiot-215.apk)
+[📱下载APK安装包](https://www.cooleiot.tech/app/cooleiot-220.apk)
 
 ## 特色
 - 极速接入：一分钟**APP**接入设备

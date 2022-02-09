@@ -1,6 +1,6 @@
 ## 使用APP
 
-- [下载APK文件](https://www.cooleiot.tech/app/cooleiot-215.apk)
+- [下载APK文件](https://www.cooleiot.tech/app/cooleiot-220.apk)
 - [访问H5版本](https://www.cooleiot.tech)
 
 > 酷易物联面向的用户群体中**非专业工程师**更多，故在设计之初便将📱APP设计地十分简洁易懂。  
