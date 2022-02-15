@@ -39,7 +39,7 @@
 2.PubSubClient  
 3.CoolE库及依赖库
 
-**⭐CoolE库下载地址：[cooleiot-arduino/releases](https://github.com/jokerwho/cooleiot-arduino/releases)**
+**⭐CoolE库下载地址：[cooleiot-arduino/releases](https://gitee.com/jokerwho/cooleiot-arduino/releases)**
 
 !> 打开ArduinoIDE，顶部菜单选择`项目—加载库—添加.ZIP库`，选择到**libraries.zip**即可
 <!-- 2.将下载后的**libraries.zip**文件解压放入 `文档/Arduino/libraries` 中！ -->
