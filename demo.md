@@ -35,7 +35,7 @@ void setup()
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);
   // IoT部分
-  iot.setDebug(true);
+  iot.setDebug();
   iot.start();
 }
 
@@ -44,10 +44,10 @@ void loop()
   // IoT部分
   iot.loop();
   recv = iot.getRevContent();
-  // Serial.println(recv);
   handleGet();
   handleCommand();
-  delay(100);
+  // IoT处理
+  iot.next();
 }
 
 void handleGet(){
@@ -121,7 +121,7 @@ void setup()
   updateDHT();
   DisplayDisconnect();
   // IoT部分
-  iot.setDebug(true);
+  iot.setDebug();
   iot.start();
 }
 
@@ -132,11 +132,11 @@ void loop()
   // IoT部分
   iot.loop();
   recv = iot.getRevContent();
-  // Serial.println(recv);
   handleGet();
   handleCommand();
   handleContent();
-  delay(100);
+  // IoT处理
+  iot.next();
 }
 
 void handleGet(){
